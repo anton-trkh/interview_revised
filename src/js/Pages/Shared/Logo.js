@@ -8,7 +8,7 @@ import React from "react";
 export default class Logo extends React.Component{
     render(){
         return (
-            <div className="logo--position">
+            <div>
                 <img src="./Assets/L1/WdoH.png" alt="Logo" />
             </div>
         );

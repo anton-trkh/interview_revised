@@ -31,29 +31,59 @@ const Login1 = React.createClass ({
     render(){
         return (
             <div className="L1" id="Login1" >
-                <Logo></Logo>
-                
-                <div className="field--blue field--border text--center email--position" id='L1__loginID'>
-                    <span>
-                        <img src='./Assets/L1/group-2.png' alt='icon' className='field__userIcon--position' />
-                        <input type='text' id='L1__loginID__field' placeholder="EMAIL" className='field__input--dim field__input--shift'></input>
-                    </span>
-                </div> 
-                
-                <div className="field--blue field--border text--center pass--position" id='L1__password'>
-                    <span>
-                        <img src='./Assets/L1/group.png' alt='img' className='field__passIcon--position' />
-                        <input type='password' id='L1__password__field' placeholder="PASSWORD" className='field__input--dim field__input--shift'/>
-                    </span>
+			
+				<div className="row" >
+					<div className="col-md-4" />
+					<div className="col-md-4" >
+						<Logo></Logo>
+					</div>
+					<div className="col-md-4" />
                 </div>
-                
-                <div onClick={this.submit} id ='shakeit' className="text--center field--blue field--border field--fill font--bold font--white button--position"> 
-                    NEXT 
+				
+				<div className="row">
+					<div className="col-md-12">
+						 &nbsp;
+					</div>
+				</div>
+				
+				<div className="row">
+					<div className="col-md-4" />
+					<div className="field--blue field--border col-md-4" id='L1__loginID'>
+						<span>
+							<img src='./Assets/L1/group-2.png' alt='icon' />
+							<input type='text' id='L1__loginID__field' placeholder="EMAIL" className='field__input--dim'></input>
+						</span>
+					</div> 
+					<div className="col-md-4" />
                 </div>
-                
-                <div className="font--small font--blue help--position">
-                    Need Help?
+
+				<div className="row">
+					<div className="col-md-4" />
+					<div className="field--blue field--border col-md-4" id='L1__password'>
+						<span>
+							<img src='./Assets/L1/group.png' alt='img' />
+							<input type='password' id='L1__password__field' placeholder="PASSWORD" />
+						</span>
+					</div>
+					<div className="col-md-4" />
                 </div>
+				
+				<div className="row">
+					<div className="col-md-4" />
+					<div onClick={this.submit} id ='shakeit' className="text--center field--blue field--border field--fill font--bold font--white col-md-4"> 
+						NEXT 
+					</div>
+					<div className="col-md-4" />
+                </div>
+
+				<div className="row">
+					<div className="col-md-4" />
+					<div className="font--small font--blue col-md-4">
+						Need Help?
+					</div>
+					<div className="col-md-4" />
+                </div>
+				
                 
                 <Footer></Footer>
             </div>
