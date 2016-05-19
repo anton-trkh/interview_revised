@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAKA,KAAK;EACD,MAAM,EAAE,IAAI",
+"sources": ["misc.sass"],
+"names": [],
+"file": "misc.css"
+}

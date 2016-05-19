@@ -1,0 +1,123 @@
+input {
+  border: none; }
+
+::-webkit-input-placeholder {
+  color: black;
+  opacity: 1 !important; }
+
+:-moz-placeholder {
+  color: black;
+  opacity: 1 !important; }
+
+::-moz-placeholder {
+  color: black;
+  opacity: 1 !important; }
+
+:-ms-input-placeholder {
+  color: black;
+  opacity: 1 !important; }
+
+.field--blue {
+  border-color: #00479F; }
+
+.field--border {
+  width: 300px;
+  height: 55px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 100px; }
+
+.field--fill {
+  background-color: #00479F; }
+
+.field__input--dim {
+  height: 50px;
+  length: 300px;
+  color: #000000; }
+
+.logo--position {
+  position: absolute;
+  left: 558px;
+  top: 60px; }
+
+.email--position {
+  position: absolute;
+  left: 533px;
+  top: 362px; }
+
+.pass--position {
+  position: absolute;
+  left: 533px;
+  top: 437px; }
+
+.button--position {
+  position: absolute;
+  left: 533px;
+  top: 522px; }
+
+.help--position {
+  position: absolute;
+  left: 650px;
+  top: 587px; }
+
+.footer--position {
+  position: absolute;
+  left: 560px;
+  top: 732px; }
+
+.field__userIcon--position {
+  position: absolute;
+  left: 15px;
+  top: 18px; }
+
+.field__passIcon--position {
+  position: absolute;
+  left: 15px;
+  top: 18px; }
+
+.picture--position {
+  position: absolute;
+  left: 633px;
+  top: 236px; }
+
+.user--position {
+  position: absolute;
+  left: 559px;
+  top: 366px; }
+
+.panel--position {
+  position: absolute;
+  left: 483px;
+  top: 670px; }
+
+.font--bold {
+  font-family: HelveticaNeue-Bold;
+  font-size: 17px; }
+
+.font--white {
+  color: #ffffff; }
+
+.font--small {
+  font-family: HelveticaNeue;
+  font-size: 13px; }
+
+.font--smaller {
+  font-family: HelveticaNeue;
+  font-size: 12px; }
+
+.font--sign {
+  font-family: HelveticaNeue;
+  font-size: 15px; }
+
+.font--blue {
+  color: #00479F; }
+
+.text--center {
+  line-height: 50px;
+  text-align: center; }
+
+.text--left {
+  line-height: 0px;
+  padding-left: 15px; }
+
+/*# sourceMappingURL=main.css.map */

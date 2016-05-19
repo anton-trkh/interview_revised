@@ -1,0 +1,41 @@
+.logo--position {
+  position: absolute;
+  left: 558px;
+  top: 60px; }
+
+.email--position {
+  position: absolute;
+  left: 533px;
+  top: 362px; }
+
+.pass--position {
+  position: absolute;
+  left: 533px;
+  top: 437px; }
+
+.button--position {
+  position: absolute;
+  left: 533px;
+  top: 522px; }
+
+.help--position {
+  position: absolute;
+  left: 650px;
+  top: 587px; }
+
+.footer--position {
+  position: absolute;
+  left: 560px;
+  top: 732px; }
+
+.field__userIcon--position {
+  position: absolute;
+  left: 15px;
+  top: 18px; }
+
+.field__passIcon--position {
+  position: absolute;
+  left: 15px;
+  top: 18px; }
+
+/*# sourceMappingURL=positions_L1.css.map */

@@ -1,0 +1,228 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,400);
+.font--big--bold {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px; }
+
+.font--bold {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 17px; }
+
+.font--small {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 13px; }
+
+.font--smaller {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px; }
+
+.font--sign {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px; }
+
+.font--blue {
+  color: #00479F; }
+
+.font--white {
+  color: #ffffff; }
+
+.field--blue {
+  border-color: #00479F; }
+
+.field--border {
+  width: 300px;
+  height: 55px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 100px; }
+
+.field--fill {
+  background-color: #00479F; }
+
+.field__input--dim {
+  height: 50px;
+  length: 300px;
+  color: #000000; }
+
+.Apps__box--cDim {
+  height: 130px;
+  width: 130px; }
+
+.Apps__box--outline {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2); }
+
+.Apps__box--simpleBorder {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f5f5f5; }
+
+.logo--position {
+  position: absolute;
+  left: 558px;
+  top: 60px; }
+
+.email--position {
+  position: absolute;
+  left: 533px;
+  top: 362px; }
+
+.pass--position {
+  position: absolute;
+  left: 533px;
+  top: 437px; }
+
+.button--position {
+  position: absolute;
+  left: 533px;
+  top: 522px; }
+
+.help--position {
+  position: absolute;
+  left: 650px;
+  top: 587px; }
+
+.footer--position {
+  position: absolute;
+  left: 560px;
+  top: 732px; }
+
+.field__userIcon--position {
+  position: absolute;
+  left: 15px;
+  top: 18px; }
+
+.field__passIcon--position {
+  position: absolute;
+  left: 15px;
+  top: 18px; }
+
+.picture--position {
+  position: absolute;
+  left: 633px;
+  top: 236px; }
+
+.user--position {
+  position: absolute;
+  left: 559px;
+  top: 366px; }
+
+.panel--position {
+  position: absolute;
+  left: 483px;
+  top: 670px; }
+
+.user__name--position {
+  position: relative;
+  left: 50px; }
+
+.user__email--position {
+  position: relative;
+  left: 25px; }
+
+.field__input--shift {
+  position: absolute;
+  right: 100px; }
+
+.Apps__panel--pos {
+  position: absolute;
+  left: 1204px;
+  top: 20px; }
+
+.Apps__panel__help--pos {
+  position: absolute;
+  left: 0px;
+  top: 11px; }
+
+.Apps__panel__notice--pos {
+  position: absolute;
+  left: 34px;
+  top: 11px; }
+
+.Apps__panel__apps--pos {
+  position: absolute;
+  left: 68px;
+  top: 11px; }
+
+.Apps__panel__pic--pos {
+  position: absolute;
+  left: 102px;
+  top: 0px; }
+
+.Apps__box--pos {
+  position: absolute;
+  left: 448px;
+  top: 239px;
+  height: 470px;
+  width: 470px; }
+
+.Apps__box__1--pos {
+  position: absolute;
+  left: 20px;
+  top: 20px; }
+
+.Apps__box__2--pos {
+  position: absolute;
+  left: 170px;
+  top: 20px; }
+
+.Apps__box__3--pos {
+  position: absolute;
+  left: 320px;
+  top: 20px; }
+
+.Apps__box__4--pos {
+  position: absolute;
+  left: 20px;
+  top: 170px; }
+
+.Apps__box__5--pos {
+  position: absolute;
+  left: 170px;
+  top: 170px; }
+
+.Apps__box__6--pos {
+  position: absolute;
+  left: 320px;
+  top: 170px; }
+
+.Apps__box__7--pos {
+  position: absolute;
+  left: 20px;
+  top: 320px; }
+
+.Apps__box__8--pos {
+  position: absolute;
+  left: 170px;
+  top: 320px; }
+
+.Apps__box__9--pos {
+  position: absolute;
+  left: 320px;
+  top: 320px; }
+
+.Apps__box__icon--center40x28 {
+  position: absolute;
+  left: 40px;
+  top: 28px; }
+
+.Apps__box__icon--center35x26 {
+  position: absolute;
+  left: 35px;
+  top: 26px; }
+
+.text--center {
+  line-height: 50px;
+  text-align: center; }
+
+.text--left {
+  line-height: 0px;
+  padding-left: 15px; }
+
+input {
+  border: none; }
+
+/*# sourceMappingURL=styles.css.map */
