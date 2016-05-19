@@ -14,7 +14,7 @@ import Apps from './Apps.js';
 const Home = React.createClass({
     render(){
         return (
-            <div id='views' className="container-fluid">
+            <div id='views' className="container">
                 {this.props.visible == 'L1' ? <Login1 store={this.props.store} /> : null}
                 {this.props.visible == 'L2' ? <Login2 store={this.props.store} /> : null}
                 {this.props.visible == 'Apps' ? <Apps store={this.props.store} /> : null}

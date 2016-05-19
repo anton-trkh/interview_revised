@@ -36,9 +36,7 @@ const HomeWrapper = React.createClass({
 //rendering function
 function update(){
     ReactDOM.render((
-        <Router history={hashHistory}>
-            <Route path="/" component={HomeWrapper}></Route>
-        </Router>)
+            <HomeWrapper></HomeWrapper>)
         , document.getElementById('app')
     );
 }

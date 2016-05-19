@@ -4,9 +4,9 @@ export default class Footer extends React.Component{
     render(){
         return(
 			<div className="row">
-				<div className="col-md-12">
+				<span className="col-md-12">
 					 &nbsp;
-				</div>
+				</span>
 			</div>
         );
     }

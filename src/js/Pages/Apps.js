@@ -7,6 +7,7 @@ import React from 'react';
 import Footer from './Shared/Footer.js';
 import submitID from "../Redux/actions.js";
 import AppBox from "./Apps/AppBox.js";
+import Spacer from "./Shared/Spacer.js";
 
 const Apps = React.createClass({
     render(){
