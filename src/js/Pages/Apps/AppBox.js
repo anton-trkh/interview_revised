@@ -18,6 +18,8 @@ const AppBox = React.createClass({
                 <div className='Apps__box__3--pos Apps__box--cDim Apps__box--simpleBorder'>
                     <img src="./Assets/Apps/page-2.png" alt="voms" className='Apps__box__icon--center40x28' />
                 </div>
+				
+				
                 <div className='Apps__box__4--pos Apps__box--cDim Apps__box--simpleBorder'>
                     <img src="./Assets/Apps/group-2.png" alt="interop" className='Apps__box__icon--center35x26' />
                 </div>
@@ -27,6 +29,8 @@ const AppBox = React.createClass({
                 <div className='Apps__box__6--pos Apps__box--cDim Apps__box--simpleBorder'>
                     <img src="./Assets/Apps/group-2.png" alt="interop" className='Apps__box__icon--center35x26' />
                 </div>
+				
+				
                 <div className='Apps__box__7--pos Apps__box--cDim Apps__box--simpleBorder'>
                     <img src="./Assets/Apps/group-2.png" alt="interop" className='Apps__box__icon--center35x26' />
                 </div>

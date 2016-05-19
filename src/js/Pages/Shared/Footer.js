@@ -8,13 +8,11 @@ import React from 'react';
 export default class Footer extends React.Component{
     render(){
         return(
-			<div className="row">
-				<div className="col-md-4" />
-				<span className="col-md-4">
+			<div>
+				<span className="text-center center-block">
 					<span className="font--sign">&copy;</span>
 					<span className="font--smaller"> Scientific Technologies Corporation 2016 </span>
 				</span>
-				<div className="col-md-4" />
 			</div>
         );
     }

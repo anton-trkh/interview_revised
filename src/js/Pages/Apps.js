@@ -13,13 +13,18 @@ const Apps = React.createClass({
     render(){
         return(
             <div className="Apps" >
-                <span className="Apps__panel--pos">
-                    <img src="./Assets/Apps/help.png" alt="help" className="Apps__panel__help--pos" />
-                    <img src="./Assets/Apps/notifications.png" alt="notice" className="Apps__panel__notice--pos"/>
-                    <img src="./Assets/Apps/apps.png" alt="apps" className="Apps__panel__apps--pos" />
-                    <img src="./Assets/Apps/jeff-copy.png" alt="pic" className="Apps__panel__pic--pos" />
-                </span>
-                <img src="./Assets/Apps/logo.png" alt="logo" className="logo--position" />
+                <div className="row">
+					<span className="col-xs-10" />
+					<span className="col-xs-2">
+						<span>
+							<img src="./Assets/Apps/help.png" alt="help" />
+							<img src="./Assets/Apps/notifications.png" alt="notice" />
+							<img src="./Assets/Apps/apps.png" alt="apps" />
+							<img src="./Assets/Apps/jeff-copy.png" alt="pic" />
+						</span>
+					</span>
+                </div>
+                <img src="./Assets/Apps/logo.png" alt="logo" className="center-block" />
 
                 <AppBox />
 
