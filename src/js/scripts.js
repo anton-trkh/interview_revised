@@ -15,6 +15,8 @@ import Login2 from "./Pages/Login2.js";
 import Apps from "./pages/Apps.js";
 import Home from "./Pages/Home.js";
 
+require('../Stylesheets/main.sass');
+
 //redux store
 const store = createStore(processLogin);
 
